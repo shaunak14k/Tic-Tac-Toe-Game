@@ -76,8 +76,9 @@ void board(int p,int n)
     }
     else
     {
-
-        if(playerCheck%2==0)
+        //     if playerCheck is even -> player-2 will play
+        //else if playerCheck is odd - > player-1 will play
+        if(playerCheck%2==0)  
         {
             play2();
         }
